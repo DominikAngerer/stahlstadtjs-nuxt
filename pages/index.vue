@@ -1,17 +1,17 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">
-        stahlstadtjswww {{story.name}}
-      </h1>
-    </div>
-  </section>
+  <main>
+    <main-header/>
+  </main>
 </template>
 
 <script>
 import storyblokLivePreview from '@/mixins/storyblokLivePreview'
+import MainHeader from '@/components/MainHeader'
 
 export default {
+  components: {
+    MainHeader
+  },
   data () {
     return { story: { content: {} } }
   },
