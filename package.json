@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "nuxt": "^1.0.0",
-    "storyblok-nuxt": "0.0.6"
+    "storyblok-nuxt": "0.0.6",
+    "marked": "^0.4.0",
+    "sha1": "^1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

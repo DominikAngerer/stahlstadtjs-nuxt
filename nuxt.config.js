@@ -13,10 +13,20 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  router: {
+    middleware: 'cacheVersion'
+  },
+  plugins: [
+    '~/plugins/helper'
+  ],
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
+  modules: [
+    ['storyblok-nuxt', {accessToken: 'qMi6zUO9MmVucgMn6l6pAQtt', cacheProvider: 'memory'}]
+  ],
   /*
   ** Build configuration
   */
