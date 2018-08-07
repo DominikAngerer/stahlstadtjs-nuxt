@@ -1,10 +1,10 @@
 <template>
   <header class="secondary-header">
     <div class="secondary-header__content">
-      <a href="/" class="secondary-header__headline">
+      <nuxt-link to="/" class="secondary-header__headline">
         <img class="secondary-header__logo" src="https://a.storyblok.com/f/46926/x/1d9cd39f7c/stahlstadt-grey.svg" alt="Stahlstadt.js">
         <span class="hidden--visually">Stahlstadt.js</span>
-      </a>
+      </nuxt-link>
     </div>
     <wave/>
   </header>
